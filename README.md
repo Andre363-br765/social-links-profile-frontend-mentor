@@ -1,7 +1,7 @@
 # 📰 Social Links Profile Frontend Mentor  
 _A clean profile page challenge focused on HTML and CSS, from Frontend Mentor._
 
----
+...
 
 This project is a **social links profile page** created as a challenge from the **Frontend Mentor** platform, focused on **HTML** and **CSS**.  
 The goal is to display a profile image, basic information, and a list of links with a modern and responsive design.  
