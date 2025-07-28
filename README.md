@@ -128,5 +128,5 @@ social-links-profile-frontend-mentor
 
 ## 🔗 Project Link
 
-[View the project here]()
+[View the project here](https://andre363-br765.github.io/social-links-profile-frontend-mentor/)
 
