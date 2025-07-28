@@ -1,0 +1,10 @@
+@media (max-width: 500px) {
+  .profile {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .link {
+    font-size: 0.875rem;
+  }
+}

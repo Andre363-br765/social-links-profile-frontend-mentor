@@ -1,0 +1,116 @@
+/* === variables === */
+:root {
+    /* === colors === */
+    --blue-600: hsl(228, 45%, 44%);
+    --green: hsl(75, 94%, 57%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --white: hsl(0, 0%, 100%);
+
+    /* === typography === */
+    --ff: 'InterVar', 'Inter', sans-serif;
+    --fs-body: 0.875rem;
+    --fs-heading: 1.375rem;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+/* === body === */
+body {
+    background-color: var(--grey-900);
+    color: var(--white);
+    font-family: var(--ff);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-body);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* === container === */
+.container {
+    display: grid;
+    place-items: center;
+    flex: 1;
+}
+
+/* === profile === */
+.profile {
+    background-color: var(--grey-800);
+    width: 25rem;
+    padding: 1.75rem;
+    border-radius: 0.6rem;
+}
+
+/* === photo === */
+.photo {
+    margin-inline: auto;
+    display: block;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+/* === name === */
+.name {
+    line-height: 1.1;
+    font-weight: var(--fw-600);
+    font-size: var(--fs-heading);
+    margin-bottom: 0.5rem;
+}
+
+/* === description === */
+.description {
+    color: var(--green);
+    font-weight: var(--fw-600);
+    margin-bottom: 1.25rem;
+}
+
+/* === bio === */
+.bio {
+    margin-bottom: 1.5rem;
+}
+
+/* === links === */
+.links li+li {
+    margin-top: 0.75rem;
+}
+
+/* === link === */
+.link {
+    background-color: var(--grey-700);
+    color: var(--white);
+    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.link:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+    transform: scale(1.02);
+    box-shadow: 0 0 10px var(--green);
+}
+
+
+/* === footer === */
+.footer {
+    background-color: var(--grey-800);
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    color: var(--white);
+}
+
+.attribution a {
+    color: var(--blue-600);
+    text-decoration: underline;
+}
